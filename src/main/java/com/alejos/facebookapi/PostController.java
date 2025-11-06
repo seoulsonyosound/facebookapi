@@ -11,7 +11,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://facebook-ui-ynk4.onrender.com"})
 @RestController
 @RequestMapping("/api/posts")
 public class PostController {
